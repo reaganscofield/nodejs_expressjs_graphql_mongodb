@@ -23,7 +23,8 @@ hit enter until the end, and type yes hit enter again
     "express-graphql": "^0.7.1",
     "graphql": "^14.1.1",
     "jsonwebtoken": "^8.5.0",
-    "mongoose": "^5.4.14"
+    "mongoose": "^5.4.14",
+    "dotenv": "^7.0.0",
   },
   "devDependencies": {
     "nodemon": "^1.18.10"

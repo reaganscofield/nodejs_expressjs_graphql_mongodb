@@ -17,6 +17,12 @@
   },
   "homepage": "https://github.com/reaganscofield/nodejs_expressjs_graphql_mongodb#readme",
   "dependencies": {
-    "express": "^4.16.4"
+    "bcryptjs": "^2.4.3",
+    "body-parser": "^1.18.3",
+    "express": "^4.16.4",
+    "express-graphql": "^0.7.1",
+    "graphql": "^14.1.1",
+    "jsonwebtoken": "^8.5.0",
+    "mongoose": "^5.4.19"
   }
 }

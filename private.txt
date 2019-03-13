@@ -1,0 +1,10 @@
+…or create a new repository on the command line
+echo "# nodejs_expressjs_graphql_mongodb" >> README.md
+git init
+git add README.md
+git commit -m "first commit"
+git remote add origin https://github.com/reaganscofield/nodejs_expressjs_graphql_mongodb.git
+git push -u origin master
+…or push an existing repository from the command line
+git remote add origin https://github.com/reaganscofield/nodejs_expressjs_graphql_mongodb.git
+git push -u origin master

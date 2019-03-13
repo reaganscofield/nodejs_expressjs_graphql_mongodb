@@ -1,0 +1,22 @@
+{
+  "name": "nodejs_expressjs_graphql_mongodb",
+  "version": "1.0.0",
+  "description": "NodeJS ExpressJS GraphQL MongoDB Server",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/reaganscofield/nodejs_expressjs_graphql_mongodb.git"
+  },
+  "author": "Reagan Scofield",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/reaganscofield/nodejs_expressjs_graphql_mongodb/issues"
+  },
+  "homepage": "https://github.com/reaganscofield/nodejs_expressjs_graphql_mongodb#readme",
+  "dependencies": {
+    "express": "^4.16.4"
+  }
+}

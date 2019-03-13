@@ -5,6 +5,16 @@ dependencies needed for this tutorials
 
 you can install them with command "npm install package_name --save"
 
+
+initial our projects
+
+``
+$ npm init
+
+``
+
+hit enter until the end, and type yes hit enter again
+
 ```
 "dependencies": {
     "bcryptjs": "^2.4.3",
@@ -15,4 +25,26 @@ you can install them with command "npm install package_name --save"
     "jsonwebtoken": "^8.5.0",
     "mongoose": "^5.4.14"
   },
+  "devDependencies": {
+    "nodemon": "^1.18.10"
+  }
+
+```
+
+in order to keep our server running when we make change to our 
+we need to install nodemon and make a little change from our package.json file
+
+```
+$ npm install --save-dev nodemon
+
+```
+
+open your package.json file and replace "script" with the following
+
+```
+ "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon index.js"
+  },
+
 ```
